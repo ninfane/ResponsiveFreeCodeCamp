@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <title>Gatitos!</title>
 </head>
@@ -9,6 +9,7 @@
     <img src="recursos/cat.png" alt="a cat relaxing">
     <p>Click to view more <a href="#">cat photos</a></p>
 
+<div>
     <h3>Things cats love</h3>
     <ul>
         <li>Milk</li>
@@ -22,25 +23,26 @@
         <li>Being bothered</li>
         <li>Going to the vet</li>
     </ol>
+</div>
 
-    <form></form></for>
-   
     <!-- Los checkbox relacionados deben tener
     el mismo nombre -->
+    <!-- type="radio": solo una opcion puede ser elegida-->
     <label for="indoor">
-        <input id="indoor" type="radio" name="indoor-outdoor">Indoor</input>
+        <!--Checked by default-->
+        <input checked id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor</input>
     </label>
     <label for="outdoor">
-        <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</input>
+        <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</input>
     </label>
     <label for="loving">
-        <input id="loving" type="checkbox" name="personality">Loving
+        <input id="loving" value="loving" type="checkbox" name="personality">Loving
     </label>
     <label for="sleepy">
-        <input id="sleepy" type="checkbox" name="personality">Sleepy
+        <input id="sleepy" value="sleepy" type="checkbox" name="personality">Sleepy
     </label>
     <label for="sneaky">
-        <input id="sneaky" type="checkbox" name="personality">Sneaky
+        <input id="sneaky" value="sneaky" type="checkbox" name="personality">Sneaky
     </label>
     <input required type="text" placeholder="cat photo URL">
     <button type="submit">Submit</button>
