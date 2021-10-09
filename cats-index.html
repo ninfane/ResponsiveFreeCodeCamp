@@ -2,14 +2,46 @@
 <html lang="en">
 <head>
     <title>Gatitos!</title>
+    <style>
+        /*Para class va ., para id va # */
+        .green-text {
+            color: #0cf568;
+        }
+        p {
+            font-size: 16px;
+            font-family: monospace;
+        }
+        h3, h2{
+            font-family: 'Ephesis', sans-serif;
+        }
+        h2 { 
+            font-size: 35px;
+        }
+        .little-image{
+            width: 200px;
+        }
+        .dotted-green-border{
+            border-color: #0cf568;
+            border-width: 5px;
+            border-style:groove;
+            border-radius: 10px;
+        }
+        .blue-background{
+            background-color: aquamarine;
+        }
+        #cat-form{
+            background-color: #0fd30f;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-    <h2>Cat Photos</h2>
-    <img src="recursos/cat.png" alt="a cat relaxing">
+    <h2 class="green-text">Cat Photos</h2>
+    <img class="little-image dotted-green-border" src="assets/cat.png" alt="a cat relaxing">
     <p>Click to view more <a href="#">cat photos</a></p>
 
-<div>
+<div class="blue-background">
     <h3>Things cats love</h3>
     <ul>
         <li>Milk</li>
@@ -28,25 +60,26 @@
     <!-- Los checkbox relacionados deben tener
     el mismo nombre -->
     <!-- type="radio": solo una opcion puede ser elegida-->
-    <label for="indoor">
-        <!--Checked by default-->
-        <input checked id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor</input>
-    </label>
-    <label for="outdoor">
-        <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</input>
-    </label>
-    <label for="loving">
-        <input id="loving" value="loving" type="checkbox" name="personality">Loving
-    </label>
-    <label for="sleepy">
-        <input id="sleepy" value="sleepy" type="checkbox" name="personality">Sleepy
-    </label>
-    <label for="sneaky">
-        <input id="sneaky" value="sneaky" type="checkbox" name="personality">Sneaky
-    </label>
-    <input required type="text" placeholder="cat photo URL">
-    <button type="submit">Submit</button>
-
+    <form id="cat-form">
+        <label for="indoor">
+            <!--Checked by default-->
+            <input checked id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor</input>
+        </label>
+        <label for="outdoor">
+            <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</input>
+        </label>
+        <label for="loving">
+            <input id="loving" value="loving" type="checkbox" name="personality">Loving
+        </label>
+        <label for="sleepy">
+            <input id="sleepy" value="sleepy" type="checkbox" name="personality">Sleepy
+        </label>
+        <label for="sneaky">
+            <input id="sneaky" value="sneaky" type="checkbox" name="personality">Sneaky
+        </label>
+        <input required type="text" placeholder="cat photo URL">
+        <button type="submit">Submit</button>
+    </form>
 </body>
 
 </html>
