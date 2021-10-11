@@ -2,6 +2,7 @@
 con [attr=value] es atributo */
 body {
     background-color: bisque;
+    text-align: center;
 }
 .green-text {
     color: #0cf568;
@@ -10,8 +11,12 @@ p {
     font-size: 16px;
     font-family: monospace;
 }
+.mi-texto {
+    text-align: justify;
+}
 h3, h2{
     font-family: 'Ephesis', sans-serif;
+    font-style: italic;
 }
 h2 { 
     font-size: 35px;
