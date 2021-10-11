@@ -4,6 +4,10 @@ body {
     background-color: bisque;
     text-align: center;
 }
+/*Hover es cuando tengo el mouse encima */
+a:hover {
+    color: #0cf568;
+}
 .green-text {
     color: #0cf568;
 }
@@ -13,6 +17,7 @@ p {
 }
 .mi-texto {
     text-align: justify;
+    line-height: 25px;
 }
 h3, h2{
     font-family: 'Ephesis', sans-serif;
@@ -24,6 +29,7 @@ h2 {
 .little-image{
     width: 200px;
     padding: 20px 40px 20px 40px; 
+    position: relative;
 }
 .dotted-green-border{
     border-color: #0cf568;
