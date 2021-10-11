@@ -1,4 +1,8 @@
-/* con . es class, con # es id*/
+/* con . es class, con # es id
+con [attr=value] es atributo */
+body {
+    background-color: bisque;
+}
 .green-text {
     color: #0cf568;
 }
@@ -14,6 +18,7 @@ h2 {
 }
 .little-image{
     width: 200px;
+    padding: 20px 40px 20px 40px; 
 }
 .dotted-green-border{
     border-color: #0cf568;
@@ -23,7 +28,11 @@ h2 {
 }
 .blue-background{
     background-color: aquamarine;
+    padding: 0px 50px 0px 50px;
 }
 #cat-form{
     background-color: #0fd30f;
+}
+[type='checkbox']{
+    margin: 10px 0px 15px 0px;
 }
