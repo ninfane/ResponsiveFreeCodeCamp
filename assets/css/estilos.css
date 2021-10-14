@@ -27,9 +27,10 @@ h2 {
     font-size: 35px;
 }
 .little-image{
-    width: 200px;
-    padding: 20px 40px 20px 40px; 
+    width: 300px;
     position: relative;
+    bottom: 10px;
+    top: 15px;
 }
 .dotted-green-border{
     border-color: #0cf568;
@@ -46,4 +47,29 @@ h2 {
 }
 [type='checkbox']{
     margin: 10px 0px 15px 0px;
+}
+#navbar {
+    background-color: grey;
+    font-family: monospace;
+    width: 100%;
+    height: 40px;
+}
+nav ul {
+    margin: 0px;
+    padding: inherit;
+    padding-top: 10px;
+    text-align: center;
+}
+nav li {
+    /*El display: inline es para que quede en la misma
+    linea del navbar*/
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+.no-deco {
+    text-decoration: none;
+}
+.no-deco:hover{
+    color: #0cf568;
 }
