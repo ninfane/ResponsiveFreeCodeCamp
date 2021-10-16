@@ -1,15 +1,16 @@
 /* con . es class, con # es id
 con [attr=value] es atributo */
 body {
-    background-color: bisque;
+    background: rgb(22,95,246);
+    background: linear-gradient(0deg, rgba(22,95,246,0.8771708512506565) 0%, rgba(81,120,255,1) 50%, rgba(149,210,255,0.779131635564382) 100%); 
     text-align: center;
 }
 /*Hover es cuando tengo el mouse encima */
 a:hover {
     color: #0cf568;
 }
-.green-text {
-    color: #0cf568;
+.blue-text {
+    color: #0c8bf5;
 }
 p {
     font-size: 16px;
@@ -32,8 +33,8 @@ h2 {
     bottom: 10px;
     top: 15px;
 }
-.dotted-green-border{
-    border-color: #0cf568;
+.groove-blue-border{
+    border-color: #03325a ;
     border-width: 5px;
     border-style:groove;
     border-radius: 10px;
@@ -43,7 +44,7 @@ h2 {
     padding: 0px 50px 0px 50px;
 }
 #cat-form{
-    background-color: #0fd30f;
+    background-color: #185283;
 }
 [type='checkbox']{
     margin: 10px 0px 15px 0px;
