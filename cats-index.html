@@ -33,47 +33,72 @@
         Vivamus erat nunc, dapibus vitae leo nec, rutrum elementum lacus. Fusce id est eu ligula pellentesque dignissim vel at odio. Donec consequat pharetra porta. Vivamus sollicitudin pretium tortor sed efficitur. Phasellus gravida, leo in bibendum ornare, elit elit tempus velit, sit amet imperdiet velit mi ac enim. Phasellus et erat ut nisl fermentum sagittis quis vel lectus. Cras malesuada elit eget sapien porta, non convallis felis efficitur. Mauris congue, dui non elementum faucibus, velit dolor sagittis ex, ac aliquam urna tortor vel leo. Mauris varius convallis leo, quis mollis ex porta sed. </p>
     </div>
 
-    <div class="blue-background">
-    <h3>Things cats love</h3>
-    <ul>
-        <li>Milk</li>
-        <li>Yarn</li>
-        <li>Sleeping</li>
-    </ul>
+    <div id="love-hate" class="blue-background box">
+        <div class="columna">
+        <h3>Things cats love</h3>
+        <ul>
+            <li>Milk</li>
+            <li>Yarn</li>
+            <li>Sleeping</li>
+        </ul>
+        </div>
 
-    <h3>Things cat <s>hate</s></h3>
-    <ol>
-        <li>Bathing</li>
-        <li>Being bothered</li>
-        <li>Going to the vet</li>
-    </ol>
+        <div class="columna">
+        <h3>Things cat <s>hate</s></h3>
+        <ol>
+            <li>Bathing</li>
+            <li>Being bothered</li>
+            <li>Going to the vet</li>
+        </ol>
+        </div>
+
+        <div class="columna">
+        <h3>Something I</h3>
+        <ol>
+            <li>Some</li>
+            <li>Thing</li>
+        </ol>
+        </div>
+
+        <div class="columna">
+        <h3>Cat types</h3>
+        <ul>
+            <li>Black</li>
+            <li>White</li>
+            <li>Calico</li>
+            <li>Persian</li>
+        </ul>
+        </div>
+
+        <!-- Agregar otras columnas 
+        Igual debo chequear como acomodar con el spacing de boostrap-->
 
     </div>
     <!-- Los checkbox relacionados deben tener
     el mismo nombre -->
     <!-- type="radio": solo una opcion puede ser elegida-->
-    <div id='my-forms'>
-    <form id="cat-form">
-        <label for="indoor">
-            <!--Checked by default-->
-            <input checked id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor</input>
-        </label>
-        <label for="outdoor">
-            <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</input>
-        </label>
-        <label for="loving">
-            <input id="loving" value="loving" type="checkbox" name="personality">Loving
-        </label>
-        <label for="sleepy">
-            <input id="sleepy" value="sleepy" type="checkbox" name="personality">Sleepy
-        </label>
-        <label for="sneaky">
-            <input id="sneaky" value="sneaky" type="checkbox" name="personality">Sneaky
-        </label>
-        <input required type="text" placeholder="cat photo URL">
-        <button type="submit">Submit</button>
-    </form>
-    </div>
+    <footer id='my-forms'>
+        <form id="cat-form">
+            <label for="indoor">
+                <!--Checked by default-->
+                <input checked id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor</input>
+            </label>
+            <label for="outdoor">
+                <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</input>
+            </label>
+            <label for="loving">
+                <input id="loving" value="loving" type="checkbox" name="personality">Loving
+            </label>
+            <label for="sleepy">
+                <input id="sleepy" value="sleepy" type="checkbox" name="personality">Sleepy
+            </label>
+            <label for="sneaky">
+                <input id="sneaky" value="sneaky" type="checkbox" name="personality">Sneaky
+            </label>
+            <input required type="text" placeholder="cat photo URL">
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
 
 </body>
 

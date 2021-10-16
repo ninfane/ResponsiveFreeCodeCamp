@@ -73,3 +73,20 @@ nav li {
 .no-deco:hover{
     color: #0cf568;
 }
+.box {
+    display: inline-flexbox;
+}
+.columna {
+    width: 160px;
+    height: 150px;
+    background-color: #eeeeee;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+}
+.columna2 {
+    float: right;
+}
+footer {
+    padding: 160px 0px 0px 0px;
+}
